@@ -33,30 +33,36 @@
         <header class="py-5 bg-image-full" style="background-image: url('https://www.vedamo.com/wp-content/uploads/cache/2018/11/Facilitating-Interaction-in-the-Virtual-Classroom-/3442627722.png')">
                 <img class="rounded-circle position-absolute top-0 end-0" width="100" height="100" src="assets/LuzNoceda.png" alt="..." />
             <div class="text-center my-5">
-                <h1 class="text-black fs-3 fw-bolder">SALAS</h1>
+                <br>
+                <h1 class="text-black fs-3 fw-bolder">ÚNETE A UNA SALA</h1>
             </div>
         </header>
         <!-- Content section-->
         <section class="py-5">
             <div class="container my-5">
+                <div class="text-center"><h2 class>Introduce el código de tu sala</h2></div>
+                
                 <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>¿Quieres crear una sala?</h2>
-                        <button class="btn btn-outline-secondary" onclick="location.href = 'create_classroom.html'"><p class="lead">
-                            <i class="fas fa-plus-circle"></i> Crea una sala ajustada a tus necesidades particulares.</p>
-                        </button>
-                        <p>Crea una sala personalizada a tu medida, con el tamaño que quieras y un fondo 
-                            de tu elección.
-                        </p>
+                    
+                    <div class="col-lg-3">
+                         <div class="form-group">
+                            <label for="exampleInputPassword1">Tu código</label>
+                            <input type="password" class="form-control" placeholder="1234">
+                        </div>
                     </div>
-                    <div class="col-lg-6">
-                        <h2>¿Prefieres unirte a una sala?</h2>
-                        <button class="btn btn-outline-secondary" onclick="location.href = 'join_classroom.html'"><p class="lead">
-                            <i class="far fa-address-book"></i> Únete a una sala existente con tus compañeros o tutores</p>
-                        </button>
-                        <p>Únete a la sala de alguien más y colabora con tus compañeros, pide asesoría de
-                            tutores o asiste a una conferencia. </p>
+                </div>
+                <br>
+                <div class="text-center">
+                    <div class="form-group">
+                        <button class="btn btn-outline-secondary" onclick="location.href = 'room.html'">
+                            Entrar
+                       </button>
                     </div>
+                    <br>
+                    <p class="lead">Únete a la sala de alguien más y colabora con tus compañeros, pide asesoría de
+                        tutores o asiste a una conferencia. 
+                    </p>
+                </div>
                 </div>
             </div>
 
